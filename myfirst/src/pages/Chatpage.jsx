@@ -6,10 +6,10 @@ import { BsFilter } from "react-icons/bs"
 import { AiOutlineSearch, AiOutlinePlus } from "react-icons/ai"
 import { MdKeyboardVoice } from "react-icons/md"
 import { IoMdSend } from "react-icons/io"
-
 import UserChat from '../components/UserChat/UserChat'
 import InputEmoji from "react-input-emoji"
 // MdMessage
+
 const Chatpage = () => {
   return (
     <>
@@ -40,6 +40,13 @@ const Chatpage = () => {
               <div className='userList w-full h-5/6 bg-slate-700  px-3 py-2 overflow-y-auto'>
                 <UserChat />
                 <UserChat />
+                <UserChat />
+                <UserChat />
+                <UserChat />
+                <UserChat />
+                <UserChat />
+                <UserChat />
+               
                
               </div>
             </div>
